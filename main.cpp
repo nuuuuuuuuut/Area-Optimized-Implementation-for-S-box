@@ -13,10 +13,11 @@ using namespace std;
 
 #define bitnum 5
 
-#define SIZE (1 << bitnum)
+#define SIZE (1 << bitnum) 
+// 定义bitnum 并且将1变成100000
 
 
-string tobits(int num, int bit_num)
+string tobits(int num, int bit_num) // 函数将num转化为bit_num位的二进制数
 {
     string res="";
 
